@@ -35,14 +35,14 @@ export const EntryScreenRightPart: React.FC<IProps> = () => {
                     maxWidth: rightPartWidth
                 }}
             >
-                {/* <Canvas>
+                <Canvas>
                     <ambientLight />
                     <OrbitControls autoRotate autoRotateSpeed={0.35} enableRotate enableZoom={false} rotateSpeed={1} />
                     <Suspense fallback={null}>
                         <Back />
                     </Suspense>
                     <Environment preset="sunset" />
-                </Canvas> */}
+                </Canvas>
             </EntryScreenRight>
         </>
     )

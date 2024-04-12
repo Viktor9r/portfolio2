@@ -175,8 +175,8 @@ function AnimationCanvas() {
         <div style={{
             position: 'relative',
         }}>
-            <AppHeader />
-            <Canvas
+            {/* <AppHeader /> */}
+            {/* <Canvas
                 style={{ height: '100%', position: 'absolute', zIndex: -1 }}
                 camera={{ position: [100, 190, 0], fov: 75 }}
             >
@@ -184,13 +184,13 @@ function AnimationCanvas() {
                     <Points />
                 </Suspense>
                 <CameraControls />
-            </Canvas>
-            <div ref={homeRef}>
+            </Canvas> */}
+            {/* <div ref={homeRef}>
                 <EntryScreen />
-            </div>
+            </div> */}
 
             <AppInnerContainer>
-                <div ref={aboutRef}>
+                {/* <div ref={aboutRef}>
                     <AboutSection />
                 </div>
                 <div ref={skillsRef}>
@@ -201,9 +201,11 @@ function AnimationCanvas() {
                 </div>
                 <div ref={contactRef}>
                     <ContactSection />
-                </div>
+                </div> */}
+
+                Hello
             </AppInnerContainer>
-            <MainScreenBottomBar />
+            {/* <MainScreenBottomBar /> */}
         </div>
     );
 }
