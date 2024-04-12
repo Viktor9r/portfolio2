@@ -4,7 +4,6 @@ import { Button } from "@mui/material";
 import { ReactComponent as LinkIcon } from '../../resources/icons/link.svg'
 import { ReactComponent as NextIcon } from '../../resources/icons/nextarrow.svg'
 import { ReactComponent as BackIcon } from '../../resources/icons/backarrow.svg'
-import LaptopCoswick from "./Laptop_coswick";
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls, Environment } from "@react-three/drei"
 import fitofan_image from '../../resources/images/fitofan.png'

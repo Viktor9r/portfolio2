@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import { TextFile } from './Text';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -35,8 +34,7 @@ const router = createBrowserRouter([
 
 root.render(
   <React.StrictMode>
-    <TextFile />
-    {/* <RouterProvider router={router} /> */}
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
