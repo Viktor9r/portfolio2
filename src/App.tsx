@@ -11,7 +11,7 @@ function App() {
   return (
     <AppOuterContainer className="app">
       <div className='animation'>
-        <Suspense fallback={<div>Loading</div>}>
+        <Suspense fallback={<div>Loading...</div>}>
           <DesktopLayout />
         </Suspense>
       </div>
